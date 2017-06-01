@@ -14,7 +14,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them. First, clone the repository and run,  the example script
+What things you need to install the software and how to install them. First, make sure you've got the lua lib installed.
+Then, clone the repository and run the example script given the following instructions :
 
 ```
 git clone git@github.com:LbcLab/indie_studio_ai_dev_kit
