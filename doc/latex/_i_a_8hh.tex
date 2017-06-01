@@ -1,0 +1,66 @@
+\hypertarget{_i_a_8hh}{}\section{inc/\+IA.hh File Reference}
+\label{_i_a_8hh}\index{inc/\+I\+A.\+hh@{inc/\+I\+A.\+hh}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include \char`\"{}Lua\+Manager.\+hh\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_i_a}{IA}
+\begin{DoxyCompactList}\small\item\em represents the AI that is implemented in Ninja Gauntlet \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_i_a_8hh_abdf6e72c2b9c22e380246ff54f98c20b}{A\+I\+\_\+\+C\+R\+E\+A\+T\+ED}~(\char`\"{}AI created.\char`\"{})
+\item 
+\#define \hyperlink{_i_a_8hh_a7582ad43aa5cfa7ac763c4fcc5278f57}{A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED}~(\char`\"{}AI destroyed.\char`\"{})
+\item 
+\#define \hyperlink{_i_a_8hh_af7188da064556db487cb62f9c656ec52}{A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE}~(\char`\"{}Call \+: getlife()\char`\"{})
+\item 
+\#define \hyperlink{_i_a_8hh_aa18cc8aca1abfc0505e365219b27acdd}{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME}~(\char`\"{}C\+P\+U1\char`\"{})
+\item 
+\#define \hyperlink{_i_a_8hh_a9b7d7f935f09570d40961cbfaf619bb0}{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE}~(100)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+!brief This is a mock of the final Ninja Gauntlet AI definition \begin{DoxyAuthor}{Author}
+Charles Paulet 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_i_a_8hh_af7188da064556db487cb62f9c656ec52}\label{_i_a_8hh_af7188da064556db487cb62f9c656ec52}} 
+\index{I\+A.\+hh@{I\+A.\+hh}!A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE@{A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE}}
+\index{A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE@{A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE}!I\+A.\+hh@{I\+A.\+hh}}
+\subsubsection{\texorpdfstring{A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE}{AI\_CALL\_GETLIFE}}
+{\footnotesize\ttfamily \#define A\+I\+\_\+\+C\+A\+L\+L\+\_\+\+G\+E\+T\+L\+I\+FE~(\char`\"{}Call \+: getlife()\char`\"{})}
+
+Message that is printed when AI script call get\+Life \mbox{\Hypertarget{_i_a_8hh_abdf6e72c2b9c22e380246ff54f98c20b}\label{_i_a_8hh_abdf6e72c2b9c22e380246ff54f98c20b}} 
+\index{I\+A.\+hh@{I\+A.\+hh}!A\+I\+\_\+\+C\+R\+E\+A\+T\+ED@{A\+I\+\_\+\+C\+R\+E\+A\+T\+ED}}
+\index{A\+I\+\_\+\+C\+R\+E\+A\+T\+ED@{A\+I\+\_\+\+C\+R\+E\+A\+T\+ED}!I\+A.\+hh@{I\+A.\+hh}}
+\subsubsection{\texorpdfstring{A\+I\+\_\+\+C\+R\+E\+A\+T\+ED}{AI\_CREATED}}
+{\footnotesize\ttfamily \#define A\+I\+\_\+\+C\+R\+E\+A\+T\+ED~(\char`\"{}AI created.\char`\"{})}
+
+Message that is printed when AI object is created \mbox{\Hypertarget{_i_a_8hh_a9b7d7f935f09570d40961cbfaf619bb0}\label{_i_a_8hh_a9b7d7f935f09570d40961cbfaf619bb0}} 
+\index{I\+A.\+hh@{I\+A.\+hh}!A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE@{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE}}
+\index{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE@{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE}!I\+A.\+hh@{I\+A.\+hh}}
+\subsubsection{\texorpdfstring{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE}{AI\_DEFAULT\_LIFE}}
+{\footnotesize\ttfamily \#define A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+I\+FE~(100)}
+
+Default AI health points \mbox{\Hypertarget{_i_a_8hh_aa18cc8aca1abfc0505e365219b27acdd}\label{_i_a_8hh_aa18cc8aca1abfc0505e365219b27acdd}} 
+\index{I\+A.\+hh@{I\+A.\+hh}!A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME@{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME}}
+\index{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME@{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME}!I\+A.\+hh@{I\+A.\+hh}}
+\subsubsection{\texorpdfstring{A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME}{AI\_DEFAULT\_NAME}}
+{\footnotesize\ttfamily \#define A\+I\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+N\+A\+ME~(\char`\"{}C\+P\+U1\char`\"{})}
+
+Default AI name \mbox{\Hypertarget{_i_a_8hh_a7582ad43aa5cfa7ac763c4fcc5278f57}\label{_i_a_8hh_a7582ad43aa5cfa7ac763c4fcc5278f57}} 
+\index{I\+A.\+hh@{I\+A.\+hh}!A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED@{A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED}}
+\index{A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED@{A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED}!I\+A.\+hh@{I\+A.\+hh}}
+\subsubsection{\texorpdfstring{A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED}{AI\_DESTROYED}}
+{\footnotesize\ttfamily \#define A\+I\+\_\+\+D\+E\+S\+T\+R\+O\+Y\+ED~(\char`\"{}AI destroyed.\char`\"{})}
+
+Message that is printed when AI object is destroyed 

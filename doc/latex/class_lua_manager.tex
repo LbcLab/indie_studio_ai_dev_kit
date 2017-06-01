@@ -1,0 +1,58 @@
+\hypertarget{class_lua_manager}{}\section{Lua\+Manager Class Reference}
+\label{class_lua_manager}\index{Lua\+Manager@{Lua\+Manager}}
+
+
+represents the Lua scripts handler/loader  
+
+
+
+
+{\ttfamily \#include $<$Lua\+Manager.\+hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_lua_manager_a11da08140b20bfb4e77ac117a6bc7a0a}\label{class_lua_manager_a11da08140b20bfb4e77ac117a6bc7a0a}} 
+\hyperlink{class_lua_manager_a11da08140b20bfb4e77ac117a6bc7a0a}{Lua\+Manager} ()
+\begin{DoxyCompactList}\small\item\em Lua scripts manager constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lua_manager_a26a821d05088bb1a6d7642b6312930aa}\label{class_lua_manager_a26a821d05088bb1a6d7642b6312930aa}} 
+\hyperlink{class_lua_manager_a26a821d05088bb1a6d7642b6312930aa}{$\sim$\+Lua\+Manager} ()
+\begin{DoxyCompactList}\small\item\em Lua scripts manager destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_lua_manager_a113433dbaed2e770ed510610de8b6c4f}{load\+Script} (std\+::string const \&path)
+\begin{DoxyCompactList}\small\item\em Open the Lua managing context. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lua_manager_a75a90a4ec9cfa390c044be3ea1ee9377}\label{class_lua_manager_a75a90a4ec9cfa390c044be3ea1ee9377}} 
+std\+::string const \hyperlink{class_lua_manager_a75a90a4ec9cfa390c044be3ea1ee9377}{get\+Path} (void) const
+\begin{DoxyCompactList}\small\item\em Accessor on the path of the lua script. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lua_manager_af9bdb289e5e90cf610164d7254795b4a}\label{class_lua_manager_af9bdb289e5e90cf610164d7254795b4a}} 
+bool \hyperlink{class_lua_manager_af9bdb289e5e90cf610164d7254795b4a}{execute} (void) const
+\begin{DoxyCompactList}\small\item\em Call loop() function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_lua_manager_aab52ca0bbfc8941043740f501dbc85e6}\label{class_lua_manager_aab52ca0bbfc8941043740f501dbc85e6}} 
+std\+::string \hyperlink{class_lua_manager_aab52ca0bbfc8941043740f501dbc85e6}{get\+Name} (void) const
+\begin{DoxyCompactList}\small\item\em Accessor on the ai name defined in the lua script. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+represents the Lua scripts handler/loader 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_lua_manager_a113433dbaed2e770ed510610de8b6c4f}\label{class_lua_manager_a113433dbaed2e770ed510610de8b6c4f}} 
+\index{Lua\+Manager@{Lua\+Manager}!load\+Script@{load\+Script}}
+\index{load\+Script@{load\+Script}!Lua\+Manager@{Lua\+Manager}}
+\subsubsection{\texorpdfstring{load\+Script()}{loadScript()}}
+{\footnotesize\ttfamily bool Lua\+Manager\+::load\+Script (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Open the Lua managing context. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Actually the path of the lua script \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+inc/\hyperlink{_lua_manager_8hh}{Lua\+Manager.\+hh}\item 
+srcs/\hyperlink{_lua_manager_8cpp}{Lua\+Manager.\+cpp}\end{DoxyCompactItemize}

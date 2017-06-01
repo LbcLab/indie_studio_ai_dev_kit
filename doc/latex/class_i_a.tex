@@ -1,0 +1,67 @@
+\hypertarget{class_i_a}{}\section{IA Class Reference}
+\label{class_i_a}\index{IA@{IA}}
+
+
+represents the AI that is implemented in Ninja Gauntlet  
+
+
+
+
+{\ttfamily \#include $<$I\+A.\+hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_a_a5ec5e30441ce9163caf40cbb763c18df}{IA} (std\+::string const path)
+\begin{DoxyCompactList}\small\item\em Constructs the AI. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_i_a_a67d4dd285ae5169239348432bab9ad0e}\label{class_i_a_a67d4dd285ae5169239348432bab9ad0e}} 
+\hyperlink{class_i_a_a67d4dd285ae5169239348432bab9ad0e}{$\sim$\+IA} ()
+\begin{DoxyCompactList}\small\item\em Destructs the AI. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_i_a_a81df51f46b3b30ff6bece457d094b3fc}\label{class_i_a_a81df51f46b3b30ff6bece457d094b3fc}} 
+void \hyperlink{class_i_a_a81df51f46b3b30ff6bece457d094b3fc}{play} (void) const
+\begin{DoxyCompactList}\small\item\em Calculates the net action of the AI This calls the loop() function defined in the lua script. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_i_a_af500668744c1eaa6345db6d062e463fc}\label{class_i_a_af500668744c1eaa6345db6d062e463fc}} 
+void \hyperlink{class_i_a_af500668744c1eaa6345db6d062e463fc}{setup} (void)
+\begin{DoxyCompactList}\small\item\em Setup AI Find basic AI information such as its name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_a_a1d8f2d91effd6eab9610763bb324d8cd}\label{class_i_a_a1d8f2d91effd6eab9610763bb324d8cd}} 
+static int \hyperlink{class_i_a_a1d8f2d91effd6eab9610763bb324d8cd}{get\+Life} (lua\+\_\+\+State $\ast$state)
+\begin{DoxyCompactList}\small\item\em Accessor on AI life. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_i_a_af8df32744539390d12d6748f0edf0311}\label{class_i_a_af8df32744539390d12d6748f0edf0311}} 
+static int \hyperlink{class_i_a_af8df32744539390d12d6748f0edf0311}{ping} (lua\+\_\+\+State $\ast$state)
+\begin{DoxyCompactList}\small\item\em debug function It will list parameters you passed through it \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Related Functions}
+(Note that these are not member functions.) \begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_a_a0a306658767e56dd5adfeb29cf207495}\label{class_i_a_a0a306658767e56dd5adfeb29cf207495}} 
+\hyperlink{class_i_a}{IA} $\ast$ \hyperlink{class_i_a_a0a306658767e56dd5adfeb29cf207495}{that}
+\begin{DoxyCompactList}\small\item\em that is initialized in the \hyperlink{class_i_a}{IA} constructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+represents the AI that is implemented in Ninja Gauntlet 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_a_a5ec5e30441ce9163caf40cbb763c18df}\label{class_i_a_a5ec5e30441ce9163caf40cbb763c18df}} 
+\index{IA@{IA}!IA@{IA}}
+\index{IA@{IA}!IA@{IA}}
+\subsubsection{\texorpdfstring{I\+A()}{IA()}}
+{\footnotesize\ttfamily I\+A\+::\+IA (\begin{DoxyParamCaption}\item[{std\+::string const}]{path }\end{DoxyParamCaption})}
+
+
+
+Constructs the AI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path of the related lua script \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+inc/\hyperlink{_i_a_8hh}{I\+A.\+hh}\item 
+srcs/\hyperlink{_i_a_8cpp}{I\+A.\+cpp}\end{DoxyCompactItemize}

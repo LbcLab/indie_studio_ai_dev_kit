@@ -1,0 +1,71 @@
+.TH "IA" 3 "Thu Jun 1 2017" "Version 1.0" "AI_DEV_KIT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+IA \- represents the AI that is implemented in Ninja Gauntlet  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <IA\&.hh>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBIA\fP (std::string const path)"
+.br
+.RI "Constructs the AI\&. "
+.ti -1c
+.RI "\fB~IA\fP ()"
+.br
+.RI "Destructs the AI\&. "
+.ti -1c
+.RI "void \fBplay\fP (void) const"
+.br
+.RI "Calculates the net action of the AI This calls the loop() function defined in the lua script\&. "
+.ti -1c
+.RI "void \fBsetup\fP (void)"
+.br
+.RI "Setup AI Find basic AI information such as its name\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetLife\fP (lua_State *state)"
+.br
+.RI "Accessor on AI life\&. "
+.ti -1c
+.RI "static int \fBping\fP (lua_State *state)"
+.br
+.RI "debug function It will list parameters you passed through it "
+.in -1c
+.SS "Related Functions"
+(Note that these are not member functions\&.) 
+.in +1c
+.ti -1c
+.RI "\fBIA\fP * \fBthat\fP"
+.br
+.RI "that is initialized in the \fBIA\fP constructor "
+.in -1c
+.SH "Detailed Description"
+.PP 
+represents the AI that is implemented in Ninja Gauntlet 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "IA::IA (std::string const path)"
+
+.PP
+Constructs the AI\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpath\fP The path of the related lua script 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AI_DEV_KIT from the source code\&.

@@ -1,0 +1,59 @@
+.TH "LuaManager" 3 "Thu Jun 1 2017" "Version 1.0" "AI_DEV_KIT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+LuaManager \- represents the Lua scripts handler/loader  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <LuaManager\&.hh>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLuaManager\fP ()"
+.br
+.RI "Lua scripts manager constructor\&. "
+.ti -1c
+.RI "\fB~LuaManager\fP ()"
+.br
+.RI "Lua scripts manager destructor\&. "
+.ti -1c
+.RI "bool \fBloadScript\fP (std::string const &path)"
+.br
+.RI "Open the Lua managing context\&. "
+.ti -1c
+.RI "std::string const \fBgetPath\fP (void) const"
+.br
+.RI "Accessor on the path of the lua script\&. "
+.ti -1c
+.RI "bool \fBexecute\fP (void) const"
+.br
+.RI "Call loop() function\&. "
+.ti -1c
+.RI "std::string \fBgetName\fP (void) const"
+.br
+.RI "Accessor on the ai name defined in the lua script\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+represents the Lua scripts handler/loader 
+.SH "Member Function Documentation"
+.PP 
+.SS "bool LuaManager::loadScript (std::string const & path)"
+
+.PP
+Open the Lua managing context\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpath\fP Actually the path of the lua script 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AI_DEV_KIT from the source code\&.
