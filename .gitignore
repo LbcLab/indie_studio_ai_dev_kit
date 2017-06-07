@@ -1,3 +1,4 @@
 doc/
 test_ia
 srcs/*.o
+*.tar.gz
