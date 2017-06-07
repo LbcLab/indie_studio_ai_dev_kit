@@ -118,6 +118,7 @@ if $upload ; then
   make_tarball $tarball
   notice "Upload Tarball"
   scp -P 4242 $tarball valkheim@lbclab.com:/var/www/html/gauntlet/install/NG-AI-devkit.tar.gz
+  exit 0
 else
   notice "Consider uploading build to public LbcLab plateform using 'upload' option."
   exit 0
