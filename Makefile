@@ -31,6 +31,7 @@ objs/%.o: %.cpp
 
 clean:
 	rm -rf $(OBJS)
+	rm -rf objs/
 
 fclean: clean
 	rm $(NAME)
