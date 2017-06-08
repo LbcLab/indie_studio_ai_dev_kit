@@ -47,3 +47,6 @@ Giving its ID, the AI will follow the desired player.
 
 ### getPlayerPosition(playerId)
 Giving its ID, the AI is able to determine a player position
+
+### getPlayerList()
+This function will return the players IDs list
