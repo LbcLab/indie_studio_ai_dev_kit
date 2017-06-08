@@ -25,7 +25,7 @@ the function loop is the only one that is called.
 You can define the speed of the ai with the global `speed`.
 
 ### ping(…)
-this function takes an arbitrary number of parameters and display them. It returns 42.
+This function takes an arbitrary number of parameters and display them. It returns 42.
 
 ### getLife()
 This is an accessor on the AI remaining life points.
@@ -40,7 +40,10 @@ This one takes an id of player and returns the distance between him and the AI.
 Providing cartesian coordinates, the AI will move in the desired direction. Give (0,0) to stop it.
 
 ### getPosition()
-retunrs the 3D position of the AI.
+Retunrs the 3D position of the AI.
 
 ### followPlayer(playerId)
-giving its ID, the AI will follow the desired player.
+Giving its ID, the AI will follow the desired player.
+
+### getPlayerPosition(playerId)
+Giving its ID, the AI is able to determine a player position
