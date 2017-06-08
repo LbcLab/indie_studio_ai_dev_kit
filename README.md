@@ -7,6 +7,9 @@ By developping Lua scripts, the gamer would be able to control AI in-game behavi
 To help him in his quest, LbcLab released this developper kit that embeed a minimal version of the Ninja Gauntlet binding.
 You could such run lua scripts, interact and modify the AI class but also debug the hole thing by debug functions and messages that
 have been placed in this developper kit.
+<p align="center">
+<a href="https://github.com/LbcLab/indie_studio_ai_dev_kit/blob/master/FEATURES.md">Discover the available features</a>
+</p>
 
 ## Getting Started
 
