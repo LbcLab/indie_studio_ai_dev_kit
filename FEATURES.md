@@ -50,3 +50,6 @@ Giving its ID, the AI is able to determine a player position
 
 ### getPlayerList()
 This function will return the players IDs list
+
+### attack()
+The AI attacks in front of it
