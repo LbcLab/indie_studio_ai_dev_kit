@@ -33,6 +33,9 @@ This is an accessor on the AI remaining life points.
 ### getNearestPlayer()
 This returns the id of the nearest player from the AI.
 
+### getNearestEnemy()
+This returns the id of the nearest monster from the AI.
+
 ### getDistanceFromPlayer(playerId)
 This one takes an id of player and returns the distance between him and the AI.
 
