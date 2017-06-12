@@ -30,8 +30,11 @@ This function takes an arbitrary number of parameters and display them. It retur
 ### getLife()
 This is an accessor on the AI remaining life points.
 
-### getNearestPlayer()
-This returns the id of the nearest player from the AI.
+### getNearestAlly()
+This returns the id of the nearest ninja ally from the AI.
+
+### getNearestNinja()
+This returns the id of the nearest ninja from the AI.
 
 ### getNearestEnemy()
 This returns the id of the nearest monster from the AI.
@@ -47,6 +50,9 @@ Retunrs the 3D position of the AI.
 
 ### followPlayer(playerId)
 Giving its ID, the AI will follow the desired player.
+
+### followMonster(playerId)
+Giving its ID, the AI will follow the desired monster.
 
 ### getPlayerPosition(playerId)
 Giving its ID, the AI is able to determine a player position
