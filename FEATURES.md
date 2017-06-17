@@ -1,6 +1,6 @@
-# Ninja Gauntlet AI features
+# Ninja Gauntlet artificial intelligence API
 
-In Ninja Gautlet, you are able to create your own artificial intelligece using Lua scripting.
+In Ninja Gautlet, you are able to create your own artificial intelligence using Lua scripting.
 This guide will show you the different features you can use in your script.
 
 Actually, the lua script that is loaded in the game is located in : `configFiles/ai/ai.lua` which is the following :
